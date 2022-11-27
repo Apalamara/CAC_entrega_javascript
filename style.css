@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.color_0 {
+    background: #e99c8b;
+}
+.color_1 {
+    background: tomato;
+}
+.color_2 {
+    background: #eaaa8b;
+}
+.color_3 {
+    background: #3385f6;
+}
+
+
+/* CONTENEDOR  */
+.flex-container {
+    display: flex;
+    align-content: stretch;
+    
+    padding: 0;
+    margin: 48px;
+    list-style: none;
+}
+  
+/* CARD  */
+.flex-item {
+    padding: 15px;
+    color: white;
+
+    width: 25%;
+}
+
+.card h2{
+    font-size: 10px;
+}
+
+.card span{
+    padding-top: 20px;
+    display: block;
+    font-size: 10px;
+}
+
+.card {
+    position: relative;
+}
+
+/* BUTTON HOVER */
+.card.flex-item:hover {
+    background-color: #b6b6b6;
+    cursor: pointer;
+}
+
+
+/* MESSAGE  */
+.message {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: #c46e5b;
+
+    position: absolute;
+    bottom: -48px;
+    height: 50px;
+    left: 0px;
+
+    font-size: 12px;
+}
+
+
+.message_other {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+
+    position: absolute;
+    bottom: -48px;
+    height: 50px;
+    left: 0px;
+    background-color: #e52900;
+
+    font-size: 12px;
+}
